@@ -9,7 +9,12 @@
        <div class="row">
           <div class="col-12">
             <a class="main-header-logo">Техномарт</a>
-            <div class="search">Поиск</div>
+            <div class="search">
+              <button aria-label="Найти">
+                <img src="icon-search.svg" alt="Найти">
+              </button>
+              <span>Поиск:</span>
+            </div>
             <ul class="informers">
               <li><a href="">Закладки</a></li>
               <li><a href="">Корзина</a></li>
@@ -44,30 +49,44 @@
       <section class="description">
         <h2>КОМПАНИЯ "Техномарт"</h2>
 
-          <p class="description-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
-          </p>
-          <p class="description-text"> Мы поможем доставить ваш товар в самы отдалённые точки России! Техномарт работает со многими транспортными компаниями:
-          </p>
+          <p class="description-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+          <p class="description-text"> Мы поможем доставить ваш товар в самы отдалённые точки России! Техномарт работает со многими транспортными компаниями:</p>
           <ul class="delivery-description">
-
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
-
           </ul>
 
-          <p>
-            <a class="more-info btn" href=""></a>
-          </p>
+          <p><a class="btn btn-red" href="">Подробнее о компании</a></p>
+
       </section>
       <section class="contacts">
         <h2>Контакты</h2>
 
           <p class="">Вы можете забрать товар сами, заехав в наш офис</p>
-          <img src="img/map-small.jpg" width="300" height="158" alt="Карта">
-          <p>
-            <a class="btn" href="">Заблудились? Напишите нам!</a>
-          </p>
+          <button><img src="img/map-small.jpg" width="300" height="158" alt="Карта"></button>
+          <div class="big-map visually-hidden"
+            <button class="close" aria-label="Закрыть карту"><img src="icon-close.svg" alt="Закрыть"></button>
+          </div>
+          <p><a class="btn" href="">Заблудились? Напишите нам!</a></p>
+
+          <div class="write-us visually-hidden">
+
+            <label for="name">Ваше имя</label>
+            <br>
+            <input type="text" name="name" placeholder="Имя Фамилия">
+            <br>
+            <label for="e-mail">Ваш e-mail:</label>
+            <br>
+            <input type="text" name="e-mail" placeholder="email@example.com">
+            <br>
+            <label for="text-letter">Текст письма:</label>
+            <br>
+            <input type="text" name="text-letter" placeholder="В свобоной форме">
+            <br>
+            <button class="red-btn" aria-label="Отправить">Отправить</button>
+          </div>
+
       </section>
 
     <footer>
@@ -95,18 +114,18 @@
            Все права защищены
       </p>
       <div class="footer-social">
-        <a class="social-btn" href="">Вконтакте</a>
-        <a class="social-btn" href="">Фейсбук</a>
-        <a class="social-btn" href="">Инстаграм</a>
+        <a class="social-btn" href="" aria-label="Мы в вконтакте">Вконтакте</a>
+        <a class="social-btn" href="" aria-label="Мы в фейсбуке">Фейсбук</a>
+        <a class="social-btn" href="" aria-label="Мы в инстаграм">Инстаграм</a>
       </div>
 
 
     <p>Обратная связь:<br>
-       mail@htmlacademy.ru
+       <a href="">mail@htmlacademy.ru</a>
     </p>
 
     <p>Разработано-<br>
-    htmlacademy.ru
+      <a href="">htmlacademy.ru</a>
     </p>
    </footer>
   </body>
