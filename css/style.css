@@ -1,0 +1,202 @@
+body{
+  margin:0;
+  padding:0;
+
+  font-family:"PT Sans", Cuprum;
+  font-size:13px;
+  line-height:24px;
+  font-weight: 700;
+  color:#000000;
+  text-transform: none;
+}
+
+a{
+  text-decoration:none;
+}
+
+.row-darkblue{
+  color:#ffffff;
+  background-color:#293449;
+}
+
+.btn {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+
+  border: none;
+}
+
+.btn-logo{
+  background-color:#ee3643;
+}
+
+.btn-green{
+  background-color:#63a63e;
+}
+
+h1{
+  font-size:16px;
+  color:#ee3643;
+  font-style:Italic;
+}
+
+.phone{
+  border:3px solid white;
+}
+
+.header-top{
+  background-color:#f3f7f8;
+}
+
+.row{
+  background-color:#32425c;
+}
+
+.navbar-nav{
+  font-size:17px;
+  color:#ffffff;
+}
+
+h2{
+  text-transform:uppercase;
+  font-size:30px;
+}
+
+.description-text{
+  font-size:13px;
+  color:#000000;
+  line-height:24px;
+}
+
+.delivery-list{
+  color:#000000;
+  font-size:18px;
+  line-height:20px;
+}
+
+.footer-nav-navbar{
+  font-size:18px;
+  color:#f3f7f9;
+}
+
+.footer-information{
+  font-size:18px;
+  color:#ffda96;
+}
+
+.header-adress{
+  color:#32425c;
+  font-size:14px;
+}
+
+.footer-adress{
+  font-size:18px;
+  color:#f3f7f9;
+  line-height:24px;
+}
+
+.btn-red{
+  background-color:#ee3643;
+}
+
+.btn-auth{
+  color:#000000;
+  font-size:21px;
+}
+
+.btn-white{
+  background-color:#ffffff;
+}
+
+.author-information{
+  font-size:16px;
+  color:#ffffff;
+}
+
+.informers{
+  font-size:17px;
+  color:#ffffff;
+}
+
+.informers,
+.navbar-nav,
+.delivery-list,
+.footer-nav-navbar,
+.footer-information{
+  list-style:none;
+}
+
+.informers a,
+.navbar-nav a,
+.delivery-list a,
+.footer-nav-navbar a,
+.footer-information a {
+  color: #ffffff;
+}
+
+.header-phone{
+  color:#e9292a;
+}
+
+.footer-information a,
+.footer-social a,
+.author-information a{
+  color:#ffd180;
+}
+
+.navbar-item :hover,
+.navbar-item :focus{
+  background-color:#293449;
+}
+
+.btn-green :hover a,
+.btn-green :focus a{
+  background-color:#5fbb2d;
+}
+
+.btn-green :active{
+  background-color:#518534;
+}
+
+.informers :hover,
+.informers :focus{
+  background-color:#212a3a;
+}
+
+.informers :active{
+  background-color:#161d29;
+}
+
+.footer-information :focus,
+.footer-information :hover,
+.footer-nav-navbar :hover,
+.footer-nav-navbar :focus{
+  text-decoration:underline;
+}
+
+.footer-information :active,
+.footer-nav-navbar :active{
+  opacity:0.5;
+}
+
+.author-information :focus a,
+.author-information :hover a{
+  text-decoration:underline;
+}
+
+.author-information :active a{
+  color:#ee3643;
+}
+
+.btn-auth :hover,
+.btn-auth :focus{
+  color:#ee3643;
+}
+
+.btn-auth :active{
+  color:#000000;
+  opacity:0.3;
+}
